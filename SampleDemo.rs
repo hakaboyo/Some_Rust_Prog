@@ -9,4 +9,9 @@ fn main() {
     let q = &p.x
     println!("{:?}", *q);
     //println!("{:?}", p < q);
+    println!("{}", dot(&p, &q));
+}
+
+fn dot (p: &Point, q: &Point) -> u64 {
+    p.x * q.x + p.y * q.y
 }
