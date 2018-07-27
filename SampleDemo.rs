@@ -15,3 +15,7 @@ fn main() {
 fn dot (p: &Point, q: &Point) -> u64 {
     p.x * q.x + p.y * q.y
 }
+
+let mut vec = Vec::new();
+for item in iter { vec.push(item) }
+vec
